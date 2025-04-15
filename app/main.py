@@ -1,6 +1,3 @@
-def main():
-    print("Hello from app!")
+import streamlit as st
+import requests
 
-
-if __name__ == "__main__":
-    main()
