@@ -4,7 +4,7 @@ import requests
 st.title("😁 Random Meme generator 😂")
 st.markdown("""
     <h3 style='text-align: center; color: orange;'>
-        Realtime Random meme generator 👀sddsddsdsds
+        Realtime Random meme generator 👀sddsddsdsdsds
     </h3>
 """, unsafe_allow_html=True)
 
