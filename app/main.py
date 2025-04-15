@@ -2,8 +2,11 @@ import streamlit as st
 import requests
 
 st.title("😁 Random Meme generator 😂")
-st.markdown("Realtime Random meme generator👀")
-st.write("------")
+st.markdown("""
+    <h3 style='text-align: center; color: orange;'>
+        Realtime Random meme generator 👀
+    </h3>
+""", unsafe_allow_html=True)
 
 if st.button("Generate meme"):
     try:
@@ -19,4 +22,11 @@ if st.button("Generate meme"):
             st.error("error fetching memes")
     except:
         st.write("api not fetcing data from the backend")
+
+st.write("_____")
     
+st.write("""
+    <p style='text-align: center; color: orange;'>
+        Built by Vikram
+    </p>
+""", unsafe_allow_html=True)
